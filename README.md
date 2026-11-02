@@ -113,8 +113,3 @@ idf.py -p /dev/tty.usbmodemXXXX flash monitor
 | 图片显示红蓝互换 | 把 `LCD_BGR` 改为 0 |
 | 固件超出 app 分区 | 减少图片数量或压缩图片，确认 `partitions.csv` 为 4MB app |
 | 配网页面打不开 | 确认手机连接的是 `ESP-Clock-xxxx` 热点，访问 `http://192.168.4.1` |
-
-## 版本
-
-当前 tag：`表情包应用`（图片轮播 + 网页配网 + LVGL 时钟）。
-仓库中另有 `呼吸大法`、`答案之书` 等历史版本 tag。
